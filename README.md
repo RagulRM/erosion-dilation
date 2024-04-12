@@ -29,7 +29,7 @@ To implement Erosion and Dilation using Python and OpenCV.
 import cv2
 import numpy as np
 from matplotlib import pyplot as plt
-imput_image='kothai_passport_photo.jpg'
+imput_image='pic.png'
 color_image=cv2.imread(imput_image)
 gray_image=cv2.cvtColor(color_image,cv2.COLOR_BGR2GRAY)
 edges=cv2.Canny(gray_image,100,200)
